@@ -24,7 +24,7 @@ public class Main_2872_김상현 {
 				max--;
 			}
 		}
-		System.out.println(N-len);
+		System.out.println(N-len); 
 	}
 
 }
