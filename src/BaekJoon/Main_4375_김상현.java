@@ -19,7 +19,7 @@ public class Main_4375_김상현 {
 				}
 				x %= num;
 				x = x * 10 + 1;
-				ans++; 
+				ans++;
 			}
 		}
 		 
