@@ -22,7 +22,7 @@ public class Main_4375_김상현 {
 				ans++;
 			}
 		}
-		
+		 
 	}
 
 }
