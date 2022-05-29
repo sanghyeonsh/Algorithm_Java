@@ -16,7 +16,7 @@ public class Main_1439_김상현 {
 				cnt++;
 			}
 		}
-		System.out.println(cnt/2);
+		System.out.println(cnt/2); 
 		
 		
 	}
