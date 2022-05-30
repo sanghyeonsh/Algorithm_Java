@@ -42,7 +42,7 @@ public class Main_18405_김상현 {
                     }
                 }
             }
-
+            
             st = new StringTokenizer(br.readLine(), " ");
             S = Integer.parseInt(st.nextToken());
             X = Integer.parseInt(st.nextToken());
