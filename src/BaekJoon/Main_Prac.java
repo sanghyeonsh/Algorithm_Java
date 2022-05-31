@@ -11,7 +11,7 @@ public class Main_Prac {
 		int[] cnt = new int[26];
 		for(int i=0;i<arr.length;i++) {
 			cnt[arr[i]-'A']++;
-		} 
+		}
 		int max = 0;
 		int max_idx = 0;
 		for(int i=0;i<26;i++) {
