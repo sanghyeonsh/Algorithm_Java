@@ -18,7 +18,7 @@ public class Main_Prac {
 			if(max<cnt[i]) {
 				max = cnt[i];
 				max_idx = i;
-			}
+			} 
 		}
 		System.out.println((char)(max_idx+'A')+""+max);
 		
