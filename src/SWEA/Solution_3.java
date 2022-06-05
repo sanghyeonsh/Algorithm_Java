@@ -28,7 +28,7 @@ public class Solution_3 {
 			solve();
 			System.out.println("#"+tc+" "+arr.get(F-1));
 		}
-	}
+	} 
 	private static void solve() {
 		while(arr.size()<F) {
 			F-=arr.size();
