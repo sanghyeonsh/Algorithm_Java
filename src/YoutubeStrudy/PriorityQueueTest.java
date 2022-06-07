@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class PriorityQueueTest {
-
+ 
 	public static void main(String[] args) {
 		
 		PriorityQueue<Integer> minQueue = new PriorityQueue<Integer>();
