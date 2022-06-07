@@ -26,8 +26,7 @@ public class NextPermutationTest {
 		
 	}
 
-	private static boolean np() {
-		
+	private static boolean np() {	
 		//1.교환 위치 찾기
 		int i = N-1;
 		while( i>0 && input[i-1]>=input[i]) --i;

@@ -18,8 +18,6 @@ public class NQueenBackTrackingTest2 {
 	
 	public static void setQueen(int rowNo) { //rowNo : 퀸을 두어야하는 현재 행
 				
-		
-		
 		//기본파트 : 퀸을 모두 놓았다면
 		if(rowNo>N) { //1이 시작점 이므로
 			ans++;
