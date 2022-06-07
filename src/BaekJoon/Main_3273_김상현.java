@@ -33,7 +33,7 @@ public class Main_3273_김상현 {
 			}else {
 				end--;
 			}
-		}
+		} 
 		System.out.println(cnt);
 	}
 
