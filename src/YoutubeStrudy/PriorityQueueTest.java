@@ -11,7 +11,7 @@ public class PriorityQueueTest {
 		//최소힙으로 동작
 		PriorityQueue<Integer> maxQueue = new PriorityQueue<Integer>(Collections.reverseOrder());
 		//최대힙으로 동착
-		
+		 
 		minQueue.offer(10);
 		minQueue.offer(50);
 		minQueue.offer(5);
