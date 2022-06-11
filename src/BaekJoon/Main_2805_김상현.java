@@ -25,7 +25,7 @@ public class Main_2805_김상현 {
 		}
 		System.out.println(bisearch(arr,0,tempMax,M));
 	}
-	
+	 
 	static long bisearch(long[] arr, long start, long end, long key) {
 		long mid = (start+end)/2;
 		if(start>end) return mid;
