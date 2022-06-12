@@ -29,5 +29,5 @@ public class Main_2559_김상현 {
 		}
 		System.out.println(max);
 	}
-
+ 
 }
