@@ -26,7 +26,7 @@ public class Main_2559_김상현 {
 			}
 			max = Math.max(max, sum);
 			sum = 0;
-		}
+		} 
 		System.out.println(max);
 	}
 
