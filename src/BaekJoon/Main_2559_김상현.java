@@ -28,6 +28,6 @@ public class Main_2559_김상현 {
 			sum = 0;
 		}
 		System.out.println(max);
-	} 
+	}
 
 }
