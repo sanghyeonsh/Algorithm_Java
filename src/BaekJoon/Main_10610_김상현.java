@@ -27,7 +27,7 @@ public class Main_10610_김상현 {
 		}
 		else {
 			System.out.println(-1);
-		} 
+		}
 	}
 
 }
