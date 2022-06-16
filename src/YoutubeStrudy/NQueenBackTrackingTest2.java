@@ -23,7 +23,7 @@ public class NQueenBackTrackingTest2 {
 			ans++;
 			return;
 		}
-		
+		 
 		// 1열부터 - n열까지 퀸을 놓는 시도
 		for(int i=1;i<=N;i++) {
 			col[rowNo] = i;
