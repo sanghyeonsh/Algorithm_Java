@@ -32,7 +32,7 @@ public class NQueenBackTrackingTest2 {
 			}
 		}
 	}
-	 
+	
 	public static boolean isAvailable(int rowNo) {
 		
 		for(int i=1;i<rowNo;i++) {
