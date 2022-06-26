@@ -20,7 +20,7 @@ public class Main_16926_김상현 {
 			for(int j=0;j<M;j++) {
 				map[i][j]=Integer.parseInt(st.nextToken());
 			}
-		}
+		} 
 		int rep = Math.min(N, M)/2;
 		int[][] d = {{0,1},{1,0},{0,-1},{-1,0}};
 		for(int r=0;r<R;r++) {
