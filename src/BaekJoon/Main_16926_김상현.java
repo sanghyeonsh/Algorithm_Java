@@ -35,7 +35,7 @@ public class Main_16926_김상현 {
 					if(nx>=i && nx<N-i && ny>=i && ny<M-i) {
 						map[x][y]=map[nx][ny];
 						x = nx; y = ny;
-					} 
+					}
 					else {
 						check++;
 					}
