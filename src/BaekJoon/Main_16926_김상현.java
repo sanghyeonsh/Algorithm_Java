@@ -49,5 +49,5 @@ public class Main_16926_김상현 {
 			}
 			System.out.println();
 		}
-	} 
+	}
 }
