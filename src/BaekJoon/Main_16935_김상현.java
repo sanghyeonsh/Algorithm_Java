@@ -102,7 +102,7 @@ public class Main_16935_김상현 {
 					}
 				}
 			}
-			//6 
+			//6
 			if(num==6) {
 				for(int i=0;i<N/2;i++) {
 					for(int j=0;j<M/2;j++) {
