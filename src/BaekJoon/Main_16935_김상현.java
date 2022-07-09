@@ -114,7 +114,6 @@ public class Main_16935_김상현 {
 						impl[i][j]=map[i+N/2][j];
 					}
 				}
-				
 				for(int i=N/2;i<N;i++) {
 					for(int j=0;j<M/2;j++) {
 						impl[i][j]=map[i-N/2][j];
