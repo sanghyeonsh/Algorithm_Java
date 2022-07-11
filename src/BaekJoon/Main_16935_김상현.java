@@ -127,7 +127,6 @@ public class Main_16935_김상현 {
 			}
 			map = impl.clone();
 		}
-		
 		for(int i=0;i<N;i++) {
 			for(int j=0;j<M;j++) {
 				System.out.print(impl[i][j]+" ");
