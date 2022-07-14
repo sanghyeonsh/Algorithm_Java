@@ -55,5 +55,4 @@ public class Solution_1225_김상현 {
 			System.out.println();
 		}
 	}
-
 }
