@@ -46,7 +46,6 @@ public class Solution_1225_김상현 {
 					break;
 				}
 				queue.offer(queue.poll()-5);
-				
 			}
 			System.out.print("#"+i+" ");
 			for(int j=0;j<8;j++) {
