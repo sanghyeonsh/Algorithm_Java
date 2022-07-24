@@ -18,7 +18,6 @@ public class BitPermutationTest {
 		for(int i=0;i<N;i++) {
 			input[i]=sc.nextInt();
 		}
-		
 		permutation(0,0);
 		
 	}
