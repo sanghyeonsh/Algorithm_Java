@@ -50,6 +50,7 @@ public class Solution_1225_김상현 {
 			for(int j=0;j<8;j++) {
 				System.out.print(queue.poll()+" ");
 			}
+			
 			System.out.println();
 		}
 	}
