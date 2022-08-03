@@ -51,7 +51,6 @@ public class Solution_1225_김상현 {
 				System.out.print(queue.poll()+" ");
 			}
 			System.out.println();
-			
 		}
 	}
 }
