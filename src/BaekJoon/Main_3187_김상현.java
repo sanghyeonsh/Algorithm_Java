@@ -54,30 +54,30 @@ public class Main_3187_김상현 {
 		
 		Queue<Point> queue = new LinkedList<>();
 		visited[x][y] = true;
-		queue.add(new Point(y,x));
+		queue.add(new Point(x,y));
 		int sheep = 0;
 		int wolf = 0;
 		while(!queue.isEmpty()) {
 			Point point = queue.poll();
-			if(map[point.y][point.x]=='v') {
+			if(map[point.x][point.y]=='v') {
 				wolf++;
-			}else if(map[point.y][point.x]=='k') {
+			}else if(map[point.x][point.y]=='k') {
 				sheep++;
 			}
 			for(int d=0;d<4;d++) {
-				int ny = point.y + delta[d][1];
 				int nx = point.x + delta[d][0];
-				if(ny>=0 && nx>=0 && ny<R && nx<C && !visited[ny][nx] && map[ny][nx]!='#') {
-					visited[ny][nx] = true;
+				int ny = point.y + delta[d][1];
+				if(ny>=0 && nx>=0 && nx<R && ny<C && !visited[nx][ny] && map[nx][ny]!='#') {
+					visited[nx][ny] = true;
 					queue.add(new Point(nx,ny));
 				}
 			}
-			if(wolf>=sheep) {
-				sheep=0;
-			}else {
-				wolf=0;
-			}
 			
+		}
+		if(wolf>=sheep) {
+			sheep=0;
+		}else {
+			wolf=0;
 		}
 		
 		return new Point(wolf,sheep);
