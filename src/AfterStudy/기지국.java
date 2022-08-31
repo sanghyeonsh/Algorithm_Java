@@ -1,9 +1,8 @@
-
+package AfterStudy;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.StringReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class 기지국 {
