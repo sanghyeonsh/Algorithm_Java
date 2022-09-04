@@ -11,7 +11,6 @@ public class Main_10026_김상현 {
 	static boolean[][] isVisited;
 	static int[][] d = {{-1,0},{0,1},{0,-1},{1,0}};
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		N = Integer.parseInt(br.readLine());
 		map = new char[N][N];
@@ -50,7 +49,6 @@ public class Main_10026_김상현 {
 			}
 		}
 		System.out.println(cnt);
-		
 		
 	}
 	private static void dfs(int x, int y) {
