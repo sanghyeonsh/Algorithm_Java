@@ -62,7 +62,6 @@ public class Main_10026_김상현 {
 				dfs(nx,ny);
 			}
 		}
-		
 	}
 
 }
