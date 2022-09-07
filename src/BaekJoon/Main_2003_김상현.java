@@ -33,7 +33,6 @@ public class Main_2003_김상현 {
 				end++;
 			}
 			if(sum==M) {
-				System.out.println(start+"    "+end);
 				ans++;
 			}
 		}
