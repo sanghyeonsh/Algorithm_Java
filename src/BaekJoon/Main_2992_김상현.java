@@ -29,7 +29,6 @@ public class Main_2992_김상현 {
 	private static void perm(int depth) {
 		if(depth == len) {
 			int temp = Integer.parseInt(String.valueOf(current));
-//			System.out.println(temp);
 			if(temp>Integer.parseInt(start) && temp<min) {
 				min = temp;
 			}
@@ -45,13 +44,4 @@ public class Main_2992_김상현 {
 			visited[i] = false;
 		}
 	}
-	private static int arrToInt(char[] map) {
-		int ans = 0;
-		for(int i=0;i<len;i++) {
-			ans += map[i]*Math.pow(10, len-i-1);
-//			System.out.println(ans);
-		}
-		return ans;
-	}
-
 }
