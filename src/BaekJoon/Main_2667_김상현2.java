@@ -39,7 +39,6 @@ public class Main_2667_김상현2 {
 				System.out.println(apartCnt[i]);
 			}
 		}
-		
 	}
 	static void dfs(int x,int y) {
 		visited[x][y] = true;
