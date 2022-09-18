@@ -3,6 +3,7 @@ package SamsungBStudy;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.LinkedList;
 import java.util.StringTokenizer;
 
 class SWEA_김상현_2
@@ -64,6 +65,7 @@ class SWEA_김상현_2
 				char ans = st.nextToken().charAt(0);
 				if (ret != ans)
 				{
+					System.out.println("틀림");
 					correct = false;
 				}
 			}
@@ -76,6 +78,7 @@ class SWEA_김상현_2
 				int ans = Integer.parseInt(st.nextToken());
 				if (ret != ans)
 				{
+					System.out.println("틀림");
 					correct = false;
 				}
 			}
@@ -108,23 +111,51 @@ class SWEA_김상현_2
 
 class UserSolution
 {
+	LinkedList<Character> mArr = new LinkedList<>();
+	int[] cnt = new int[26];
+	int row = 0;
+	int col = 0;
+	int height = 0;
+	int width = 0;
+	
 	void init(int H, int W, char mStr[])
 	{
-
+		for(int i=0;i<mStr.length;i++) {
+			if(mStr[i]<'a') {
+				break;
+			}
+			mArr.add(mStr[i]);
+		}
+		row = 0;
+		col = 0;
+		width = W;
+		height = H;
+		for(int i=0;i<mArr.size();i++) {
+			cnt[mStr[i]-'a']++;
+		}
 	}
 	
 	void insert(char mChar)
 	{
-
+		cnt[mChar-'a']++;
+		if(row*width+col<mArr.size()) {
+			mArr.add(row*width+col, mChar);
+		}else {
+			mArr.add(mChar);
+		}
 	}
 
 	char moveCursor(int mRow, int mCol)
 	{
+		row = mRow-1;
+		col = mCol-1;
+		if(row*width+col<mArr.size()) {
+			return mArr.get(row*width+col);
+		}
 		return '$';
 	}
-
 	int countCharacter(char mChar)
 	{
-		return -1;
+		return cnt[mChar-'a'];
 	}
 }
