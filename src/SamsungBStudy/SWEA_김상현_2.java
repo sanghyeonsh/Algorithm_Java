@@ -111,6 +111,8 @@ class SWEA_김상현_2
 
 class UserSolution
 {
+	
+	
 	LinkedList<Character> mArr = new LinkedList<>();
 	int[] cnt = new int[26];
 	int row = 0;
