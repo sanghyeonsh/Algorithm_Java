@@ -37,7 +37,6 @@ public class Main_2003_김상현 {
 			}
 		}
 		System.out.println(ans);
-		
 	}
 
 }
