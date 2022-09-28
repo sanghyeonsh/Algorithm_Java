@@ -39,7 +39,6 @@ public class Main_5568_김상현 {
 			solve(str+number[i],cnt+1);
 			visited[i] = false;
 		}
-		
 	}
 
 }
