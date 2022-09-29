@@ -40,5 +40,4 @@ public class Main_5568_김상현 {
 			visited[i] = false;
 		}
 	}
-
 }
