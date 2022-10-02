@@ -43,7 +43,6 @@ public class Main_3584_김상현_LCA {
 			}
 			//h=1, parent=0
 			init(rootIdx,1,0);
-			
 			st = new StringTokenizer(br.readLine());
 			int a = Integer.parseInt(st.nextToken());
 			int b = Integer.parseInt(st.nextToken());
