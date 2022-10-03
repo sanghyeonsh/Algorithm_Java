@@ -76,7 +76,5 @@ public class Main_3584_김상현_LCA {
 			}
 		}
 	}
-	
-	
 
 }
