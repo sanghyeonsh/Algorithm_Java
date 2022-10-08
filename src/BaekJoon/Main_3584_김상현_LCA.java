@@ -4,7 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Stack;
 import java.util.StringTokenizer;
 
 public class Main_3584_김상현_LCA {
@@ -15,6 +17,7 @@ public class Main_3584_김상현_LCA {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
+		String str = "";
 		int T = Integer.parseInt(br.readLine());
 		for(int t=0;t<T;t++) {
 			int N = Integer.parseInt(br.readLine());
@@ -67,6 +70,7 @@ public class Main_3584_김상현_LCA {
 		}
 		return a;
 	}
+	
 	private static void init(int cur, int h, int pa) {
 		depth[cur] = h;
 		parent[cur] = pa;
