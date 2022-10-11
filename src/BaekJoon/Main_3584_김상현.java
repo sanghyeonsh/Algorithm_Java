@@ -40,5 +40,4 @@ public class Main_3584_김상현 {
 		}
 		System.out.println(sb.toString().trim());
 	}
-
 }
