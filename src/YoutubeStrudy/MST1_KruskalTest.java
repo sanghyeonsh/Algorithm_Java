@@ -38,7 +38,6 @@ public class MST1_KruskalTest {
 	public static int findSet(int a) {
 		if(a==parents[a]) return a;
 		return parents[a] = findSet(parents[a]); //path compression
-		
 	}
 	public static boolean union(int a, int b) {
 		
@@ -46,8 +45,7 @@ public class MST1_KruskalTest {
 		int bRoot = findSet(b);
 		if(aRoot == bRoot) return false;
 		parents[bRoot] = aRoot;
-		return true;
-		
+		return true;		
 	}
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		
