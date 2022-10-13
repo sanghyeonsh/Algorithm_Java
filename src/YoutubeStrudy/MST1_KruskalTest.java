@@ -40,7 +40,6 @@ public class MST1_KruskalTest {
 		return parents[a] = findSet(parents[a]); //path compression
 	}
 	public static boolean union(int a, int b) {
-		
 		int aRoot = findSet(a);
 		int bRoot = findSet(b);
 		if(aRoot == bRoot) return false;
