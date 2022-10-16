@@ -81,5 +81,4 @@ public class Main_2580_김상현 {
 		}
 		return true;
 	}
-
 }
