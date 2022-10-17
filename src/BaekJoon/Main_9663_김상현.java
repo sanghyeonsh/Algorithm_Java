@@ -14,7 +14,6 @@ public class Main_9663_김상현 {
 		arr = new int[N+1];
 		nQueen(1);
 		System.out.println(answer);
-		
 	}
 
 	private static void nQueen(int row) {
