@@ -15,7 +15,6 @@ public class Main_9663_김상현 {
 		nQueen(1);
 		System.out.println(answer);
 	}
-
 	private static void nQueen(int row) {
 		
 		if(!isAvailable(row-1)) {
