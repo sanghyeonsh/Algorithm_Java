@@ -29,8 +29,6 @@ public class Main_9663_김상현 {
 			nQueen(row+1);
 		}
 		
-		
-		
 	}
 
 	private static boolean isAvailable(int row) {
