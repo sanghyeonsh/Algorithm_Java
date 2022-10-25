@@ -70,7 +70,6 @@ public class Main_2580_김상현 {
 		}
 		int rStart = r/3*3;
 		int cStart = c/3*3;
-//		System.out.println(rStart+"   "+cStart);
 		for(int i=rStart;i<rStart+3;i++) {
 			for(int j=cStart;j<cStart+3;j++) {
 				if(!(r==i && c==j)&&map[r][c]==map[i][j]) {
