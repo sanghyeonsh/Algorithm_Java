@@ -17,8 +17,7 @@ public class Main_4673_김상현 {
 			if(arr[i]==0) {
 				System.out.println(i);
 			}
-		}
-		
+		}	
 	}
 
 }
