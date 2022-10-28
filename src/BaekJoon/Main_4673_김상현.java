@@ -19,5 +19,4 @@ public class Main_4673_김상현 {
 			}
 		}	
 	}
-
 }
