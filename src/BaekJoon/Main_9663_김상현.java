@@ -19,7 +19,6 @@ public class Main_9663_김상현 {
 		if(!isAvailable(row-1)) {
 			return;
 		}
-		
 		if(row>N) {
 			answer++;
 			return;
