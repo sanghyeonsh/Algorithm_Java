@@ -26,8 +26,7 @@ public class Main_9663_김상현 {
 		for(int i=1;i<=N;i++) {
 			arr[row] = i;
 			nQueen(row+1);
-		}
-		
+		}	
 	}
 
 	private static boolean isAvailable(int row) {
