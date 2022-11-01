@@ -36,7 +36,6 @@ public class Main_9663_김상현 {
 				return false;
 			}
 		}
-		
 		return true;
 	}
 
