@@ -12,7 +12,6 @@ public class Main_10814_김상현_1 {
 	static class Info{
 		int age;
 		String name;
-		
 		public Info(int age,String name) {
 			this.age = age;
 			this.name = name;
