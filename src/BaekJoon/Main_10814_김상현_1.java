@@ -19,7 +19,6 @@ public class Main_10814_김상현_1 {
 	}
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		
-		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
 		StringTokenizer st;
