@@ -17,7 +17,6 @@ public class MST1_KruskalTest {
 			this.to = to;
 			this.weight = weight;
 		}
-		
 		@Override
 		public int compareTo(Edge o) {
 			return this.weight - o.weight;
