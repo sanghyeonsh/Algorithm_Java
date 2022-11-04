@@ -18,7 +18,6 @@ public class NextPermutationTest {
 		
 		//1.오름차순 정렬
 		Arrays.sort(input);
-		
 		do {
 			//순열 출력
 			System.out.println(Arrays.toString(input));
