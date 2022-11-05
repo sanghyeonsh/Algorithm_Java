@@ -15,7 +15,6 @@ public class NextPermutationTest {
 		for(int i=0;i<N;i++) {
 			input[i] = sc.nextInt();
 		}
-		
 		//1.오름차순 정렬
 		Arrays.sort(input);
 		do {
