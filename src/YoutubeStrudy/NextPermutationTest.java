@@ -45,7 +45,6 @@ public class NextPermutationTest {
 		}	
 		return true;
 	}
-	
 	public static void swap(int i,int j) {
 		int temp = input[i];
 		input[i] = input[j];
