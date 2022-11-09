@@ -34,7 +34,6 @@ public class NextPermutationTest {
 		//2.교환위치에 교환할 값 찾기
 		int j = N-1;
 		while(input[i-1]>=input[j]) --j;
-		
 		//3.교환위치와 교환할 값 교환하기
 		swap(i-1,j);
 		//4.교환위치 탑(꼭대기)부터 맨 뒤까지 만들 수 있는 가장 작은 순열 생성(오름차순 정렬)
