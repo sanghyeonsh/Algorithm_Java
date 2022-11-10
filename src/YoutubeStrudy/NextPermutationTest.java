@@ -48,5 +48,4 @@ public class NextPermutationTest {
 		input[i] = input[j];
 		input[j] = temp;
 	}
-	
 }
