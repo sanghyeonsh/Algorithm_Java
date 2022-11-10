@@ -28,9 +28,7 @@ public class NextPermutationTest {
 		//1.교환 위치 찾기
 		int i = N-1;
 		while( i>0 && input[i-1]>=input[i]) --i;
-		
-		if(i==0) return false;
-		
+		if(i==0) return false;	
 		//2.교환위치에 교환할 값 찾기
 		int j = N-1;
 		while(input[i-1]>=input[j]) --j;
