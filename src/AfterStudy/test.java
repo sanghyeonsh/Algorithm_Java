@@ -8,6 +8,5 @@ public class test {
 //		for(String s:strArr) {
 //			System.out.println(s);
 //		}
-		System.out.println(strArr.length);
 	}
 }
