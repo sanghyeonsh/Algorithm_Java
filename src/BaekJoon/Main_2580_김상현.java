@@ -68,6 +68,7 @@ public class Main_2580_김상현 {
 				return false;
 			}
 		}
+		
 		int rStart = r/3*3;
 		int cStart = c/3*3;
 		for(int i=rStart;i<rStart+3;i++) {
