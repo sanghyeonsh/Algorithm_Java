@@ -67,8 +67,7 @@ public class Main_2580_김상현 {
 			if(c!=i && map[r][c]==map[r][i]) {
 				return false;
 			}
-		}
-		
+		}	
 		int rStart = r/3*3;
 		int cStart = c/3*3;
 		for(int i=rStart;i<rStart+3;i++) {
