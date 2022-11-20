@@ -11,7 +11,6 @@ public class Main_2580_김상현 {
 	static int cnt;
 	static boolean flag;
 	public static void main(String[] args) throws IOException {
-		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		map = new int[9][9];
