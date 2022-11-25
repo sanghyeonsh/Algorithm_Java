@@ -25,6 +25,7 @@ public class Main_2580_김상현 {
 		System.out.println(cnt);
 		solve(0,-1,-1);		
 	}
+	
 	private static void solve(int check, int r, int c) {
 		if(flag) {
 			return;
