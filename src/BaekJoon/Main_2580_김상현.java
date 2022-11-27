@@ -6,7 +6,6 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class Main_2580_김상현 {
-
 	static int[][] map;
 	static int cnt;
 	static boolean flag;
