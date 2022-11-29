@@ -21,6 +21,7 @@ public class Main_2580_김상현 {
 				map[i][j] = num;
 			}
 		}
+		
 		System.out.println(cnt);
 		solve(0,-1,-1);		
 	}
