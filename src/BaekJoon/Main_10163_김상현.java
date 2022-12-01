@@ -7,7 +7,6 @@ public class Main_10163_김상현 {
 	static int N;
 	static int[][] arr;
 	public static void main(String[] args) {
-		
 		Scanner sc = new Scanner(System.in);
 		N = sc.nextInt();
 		arr = new int[1001][1001];
