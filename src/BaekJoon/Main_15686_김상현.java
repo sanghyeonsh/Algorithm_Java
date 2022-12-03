@@ -61,5 +61,4 @@ public class Main_15686_김상현 {
 		comb(idx+1,k);
 		
 	}
-
 }
