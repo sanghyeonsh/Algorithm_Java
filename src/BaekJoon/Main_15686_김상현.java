@@ -59,6 +59,5 @@ public class Main_15686_김상현 {
 		select[k] = chicken.get(idx);
 		comb(idx+1,k+1);
 		comb(idx+1,k);
-		
 	}
 }
