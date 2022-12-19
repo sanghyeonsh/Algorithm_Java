@@ -31,7 +31,6 @@ public class Main_15686_김상현 {
 		}
 		comb(0,0);
 		System.out.println(min);
-		
 	}
 	static class Point{
 		public int x,y;
